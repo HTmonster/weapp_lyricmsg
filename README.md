@@ -2,36 +2,33 @@
 
 > 想说的话，藏在了歌词里
 
-## Build Setup
+![](./static/images/logo.png)
 
-``` bash
-# 初始化项目
-vue init mpvue/mpvue-quickstart myproject
-cd myproject
+#### :rocket:简介
 
-# 安装依赖
-yarn
+现在已经有那么多的歌，那么<u>肯定有一些我们想说的话已经包含在现有的歌词中</u>了。当有一些难以启齿的话，或者为了增加一点乐趣（或者傻吊气氛），就可以不直接说出来想说的话，而是的说出<u>想说的话在藏在歌的位置</u>，所以就开发了这么一个小程序
 
-# 开发时构建
-npm dev
+#### :aerial_tramway:用法
 
-# 打包构建
-npm build
+![](./static/images/image-20200608221733165.png)
 
-# 指定平台的开发时构建(微信、百度、头条、支付宝)
-npm dev:wx
-npm dev:swan
-npm dev:tt
-npm dev:my
+#### :man_scientist:技术框架
 
-# 指定平台的打包构建
-npm build:wx
-npm build:swan
-npm build:tt
-npm build:my
+前端：mpvue+vant+flyio
 
-# 生成 bundle 分析报告
-npm run build --report
-```
+后端：Django+RESTful API
+
+#### :apple:成果
+
+![](./static/images/search.png)
+
+#### :alarm_clock:ChangLog
+
+| 日期      | 版本  | 备注               |
+| --------- | ----- | ------------------ |
+| 2020.6.10 | 1.0.0 | 初步完整框架，测试 |
+|           |       |                    |
+|           |       |                    |
+
 
 
